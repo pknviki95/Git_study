@@ -30,6 +30,8 @@ _A list of my commonly used Git commands_
 | `git commit -a | includes all currently changed files in this commit (untracked files are not included) |
 | `git commit --amend | It fixes the broken commit |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git rm -f [file-name]` | forces to remove a tracked file |
+| `git rm --cached [file-name] | it unstages a file (i.e) changes tracked file to untracked file |
 
 ### Branching & Merging
 
