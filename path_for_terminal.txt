@@ -1,1 +1,3 @@
 /home/pknviki95/Git_study
+/home/pknviki95/Git_study/Python_script
+/home/pknviki95/Git_study/Git_commands
