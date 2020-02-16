@@ -54,6 +54,10 @@ _A list of my commonly used Git commands_
 |'git branch --no-merged' | lists all the files that are not merged |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
+| `git stash apply' | reapply the stash changes to working dorectory |
+| `git stash apply [stash-id]' | reapply the particular stash changes to working dorectory |
+| `git stash pop' | it reapply the last commit and clears from stash list |
+| `git stash drop' | it deletes the last stash change |
 
 ### Sharing & Updating Projects
 
@@ -76,3 +80,14 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Tagging for the release
+
+| command | Description |
+| ------- | ------------|
+| `git tag [tag-name]` | creates the tag for release |
+| 'git tag` | lists all the tags |
+| `git tag -d [tag-name]` | delete the tag in local repository |
+| `git push origin [tag-name]` | pushes the tag to remote repository |
+| 'git push origin -d [tag-name]` |deletes the tag in remote repository |
+| `git clone [url] --branch=[tag-name]` | creates the local copy of remote repository tag |
