@@ -50,6 +50,8 @@ _A list of my commonly used Git commands_
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
+| `git branch --merged` | lists all the branches that are merged |
+|'git branch --no-merged' | lists all the files that are not merged |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
